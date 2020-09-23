@@ -24,6 +24,25 @@ As you can see, the liveness of songs, danceability of songs, and loudness of so
 
 I ran multiple models including: K-Best Features, GridSearch Logistic Regression, KNN, Decision Tree, Random Forest, Voting CLassifier, and XG Boost. When evaluating the models by Accuracy, the XG Boost model performed the best with an accuracy score of 96% (Gridsearch Logistic Regression came close at 95%!)
 
+ 
+Models and Accuracy
+                                  
+K-Best Features:                   0.71
+
+GridSearch Logistic Reg.:          0.95
+
+KNN:                               0.87
+
+Decision Tree:                     0.85
+
+Random Forest:                     0.86
+
+Voting Classifier:                 0.89
+
+XG Boost:                          0.96
+
+To find the F1 score for each model, please see the Final notebook on this project.
+
 # Conclusion
 
 This is a great start for any music label to start with. I was able to identify certain features which play a role in a songs success. The future is built on data, and with the industry constantly growing, labels and private artists will find looking at features of popular songs more and more valuable. In the future, I would like to build a recommendation system for music labels and artists to use. This will be able to expand their outreach into different music verticals and help them continue to grow their brand, and following.
