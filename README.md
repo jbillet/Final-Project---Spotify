@@ -9,15 +9,16 @@ The data used for this project involved web scraping from Spotify,  utilizing th
 
 ![Test Image 4](https://github.com/jbillet/Final-Project---Spotify/blob/master/Screen%20Shot%202020-09-23%20at%202.17.40%20AM.png)
 
+![Test Image 4](https://github.com/jbillet/Final-Project---Spotify/blob/master/Screen%20Shot%202020-09-23%20at%202.17.47%20AM.png)
+
+![Test Image 4](https://github.com/jbillet/Final-Project---Spotify/blob/master/Screen%20Shot%202020-09-23%20at%202.17.53%20AM.png)
+
+![Test Image 4](https://github.com/jbillet/Final-Project---Spotify/blob/master/Screen%20Shot%202020-09-23%20at%202.17.59%20AM.png)
 
 
-Danceability for Top 20 vs Top 200
+As you can see, the liveness of songs, danceability of songs, and loudness of songs all fall under certain parameters to move up in the charts. There is a clear distinction that songs which make the Top 200, and let alone the Top 10 should have their audio features set to that.
 
-Loudness of Songs
 
-Liveness of Songs
-
-Acousticness on Charts
 
 # Modeling
 
