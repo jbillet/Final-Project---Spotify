@@ -26,6 +26,6 @@ I ran multiple models including: K-Best Features, GridSearch Logistic Regression
 
 # Conclusion
 
-This is a great start for any music label to start with. The future is built on data, and with the industry constantly growing, labels and private artists will find looking at features of popular songs more and more valuable. 
+This is a great start for any music label to start with. I was able to identify certain features which play a role in a songs success. The future is built on data, and with the industry constantly growing, labels and private artists will find looking at features of popular songs more and more valuable. In the future, I would like to build a recommendation system for music labels and artists to use. This will be able to expand their outreach into different music verticals and help them continue to grow their brand, and following.
 
 Presentation Link: https://docs.google.com/presentation/d/1eREDMA-W3fG22I8RHDZpdv9Sm_j8o2e52Z-ebgX80j8/edit#slide=id.g9a659aed1a_0_628
