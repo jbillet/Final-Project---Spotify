@@ -22,7 +22,7 @@ As you can see, the liveness of songs, danceability of songs, and loudness of so
 
 # Modeling
 
-I ran multiple models including: K-Best Features, GridSearch Logistic Regression, KNN, Decision Tree, Random Forest, Voting CLassifier, and XG Boost. When evaluating the models by Accuracy, the XG Boost model performed the best with an accuracy score of 96% (Gridsearch Logistic Regression came close at 95%!)
+I ran multiple models including: K-Best Features, GridSearch Logistic Regression, KNN, Decision Tree, Random Forest, Voting CLassifier, and XG Boost. When evaluating the models by Accuracy, the XG Boost model performed the best with an accuracy score of 96% (Gridsearch Logistic Regression came close at 95%!). Please note, there was a massive class imbalance so I used the over sampling technique SMOTE to adjust the class distribution of the target value.
 
  
 Models and Accuracy
