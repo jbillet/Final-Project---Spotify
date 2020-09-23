@@ -7,6 +7,10 @@ With music streaming services on the rise, and consumers always looking for the 
 
 The data used for this project involved web scraping from Spotify,  utilizing the csv files of the Top 200 weekly charts from the Spotify website, as well as using Spotify’s APi to extract the audio ID’s. Aside from having to merge multiple dataframes, the data was relatively clean. I initially looked at the difference of popularity of songs compared to the audio features. I than dove into: 
 
+![Test Image 4](https://github.com/jbillet/Final-Project---Spotify/blob/master/Screen%20Shot%202020-09-23%20at%202.17.40%20AM.png)
+
+
+
 Danceability for Top 20 vs Top 200
 
 Loudness of Songs
