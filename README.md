@@ -37,3 +37,27 @@ The following is a list of features and short descriptions to have a better unde
 - Artist: Artist who sings the song
 - Chart Position: What position the song was in on the chart ranking
 - Week of: Which week the song was in the Top charts
+
+# Visualizations
+
+To visualize what the data describes, I built out multiple visualizations below:
+
+![Alt text](https://github.com/jbillet/Final-Project---Spotify/blob/master/Spotify%20ReadMe%20Pictures/Song%20Feature%20Weighted%20vs%20Popularity.png)
+
+- Song Feature vs weighted popularity: As you can tell by the chart, each feature plays a different role in the popularity of a song. In this instance, when instrumentalness was at 0.0, the popularity rose tremendously. Liveness and Danceability also both rose in popularity when racing in between, respectively, 0.0-0.2.
+
+![Alt text](https://github.com/jbillet/Final-Project---Spotify/blob/master/Spotify%20ReadMe%20Pictures/Danceability%20of%20Songs%20Top%20200:10.png)
+
+- Unsurprising, Danceability for the Top 200 and Top 10 were relatively similar in comparing popularity.
+ 
+![Alt text](https://github.com/jbillet/Final-Project---Spotify/blob/master/Spotify%20ReadMe%20Pictures/Liveness%20of%20Songs%20Top%20200:10.png)
+ 
+- The Liveness of songs had the same range for the best results. Around 0.1 seems to be the sweet spot for the Liveness of the Top 200 and Top 10.
+ 
+![Alt text](https://github.com/jbillet/Final-Project---Spotify/blob/master/Spotify%20ReadMe%20Pictures/Loudness%20of%20Songs%20Top%20200:10.png)
+ 
+- Similar to the Liveness, the Loudness seems to have a sweet spot for popularity in terms of range of Loudness. This seems to be around -5 for both, the Top 200 as well as the Top 10.
+
+
+
+
