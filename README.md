@@ -13,13 +13,14 @@ The following will allow you to have a clear understanding how how I obtained th
 
 - After downloading the csv files, I utilized the Spotify API to fetch the audio features of each song (including, but not limited to: tremble, acousticness, liveness, loudness).
 
-## The easiest way to follow along with this roadmap is:
+## The Roadmap:
 
 First look at the “Spotify Data” Jupyter Notebook on the Master branch of my github account As you can see, during the Webscraping portion of this project, I had to clean up the data to ensure only certain words throughout the features were left (compared to all of the commas and unnecessary jargon)
 As you scroll below, you will be able to see the imported Spotify Top 200 song features via csv files. I parsed through those filed extracting artist names, song names, chart positions, and number of streams, and song ID’s. You will then be able to scroll down and see the API call. Initially, I tested the call on one song and realized that it did effectively call each audio feature from the specified song. After doing this test, I used that same for-loop to call the audio feature to over 30,000 songs on Spotify.  Utilizing the Spotify API call I was able to sync the song features with the data obtained via webscraping, along with the Top 200 Song chart. I did this by matching song ID’s to noe another.
  
 Taking a look at the “Final Notebook” on the Master branch of my github, you can initially see my imports of all of the necessary csv files to start my EDA process by combing through the data. As expected, there was not much feature engineering that needed to be done due to the fact that the features looked at were called by the API (Tremble, Liveness, Loudness, etc).
 
+## Spotify Index
 The following is a list of features and short descriptions to have a better understanding of the data (directly pulled from the SPotify website):
 - Time_signature: The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure).
 - Acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
