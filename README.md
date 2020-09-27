@@ -60,6 +60,8 @@ To visualize what the data describes, I built out multiple visualizations below:
 
 # Modeling
 
+In order to predict my goal, I used a logistic regression model as my baseline model to classify a song to determine whether it made the top 10 or not. In order to accurately judge my model’s I realized that I needed to use the F1 metric. F1 is a metric which is the combination of Precision and Recall, this will tell me if my model is accurately predicting both classes instead of looking at it’s overall accuracy. My baseline model had a 95% accuracy but 0% F1 Score, this indicated to me that my model was struggling with the large class imbalance in my data. Using SMOTE, I created artificial cases to balance my top 10 to my non-top 10 class. After solving that class imbalance I ran multiple models including: K-Best Features, Logistic Regression, KNN, Decision Tree, Random Forest, Voting Classifier, and XG Boost. My best model was the Voting Classifier as it had a 38% F1 score and still had 88% accuracy.
+ 
 # Conclusion
 
 This is a great start for any music label to start with. I was able to identify certain features which play a role in a songs success. The future is built on data, and with the industry constantly growing, labels and private artists will find looking at features of popular songs more and more valuable. In the future, I would like to build a recommendation system for music labels and artists to use. This will be able to expand their outreach into different music verticals and help them continue to grow their brand, and following.
