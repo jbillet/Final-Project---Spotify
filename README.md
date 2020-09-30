@@ -62,6 +62,8 @@ To visualize what the data describes, I built out multiple visualizations below:
 # Modeling
 
 In order to predict my goal, I used a Logistic Regression model as my baseline model to classify a song in which to determine whether it made the Top 10 charts or not. In order to accurately judge my models, I realized that I needed to use the F1 metric. F1 is a metric which is the combination of Precision and Recall. This will tell me if my model is accurately predicting both classes instead of looking at it’s overall accuracy. My baseline model had a 95% accuracy but 0% F1 Score, this indicated to me that my model was struggling with the large class imbalance in my data. Using SMOTE, I created artificial cases to balance my Top 10 to my non-top 10 class. After solving that class imbalance, I ran multiple models including: K-Best Features, Logistic Regression, KNN, Decision Tree, Random Forest, Voting Classifier, and XG Boost. My best model was the Voting Classifier as it had a 38% F1 score and still maintained 88% accuracy.
+
+When looking are the most important to making the Top 10 chart, I looked at the coefficients in two models that performed well; Decision Tree and Random Forest. In When looking at the top four features, you can see that Random Forest ranked Liveness (0.13856450371489015) , Duration (0.13418215703082687), Energy (0.13145760225385641), and Tempo (0.12911558396700318) as the most important. When taking a look at Decision Tree, you can see that Duration (0.1571872728917043), Liveness (0.15085107527868655), Tempo (0.1380435496673679) and Valence (0.13801515656471408) were the most important in determining a Top 10 song.  
  
 # Conclusion
 
