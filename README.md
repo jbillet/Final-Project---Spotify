@@ -59,6 +59,14 @@ To visualize what the data describes, I built out multiple visualizations below:
  
 - Similar to the Liveness, the Loudness seems to have a sweet spot for popularity in terms of range of Loudness. This seems to be around -5 for both, the Top 200 as well as the Top 10.
 
+# Hypothesis Testing
+### Top 10 vs Top 200
+- Ho: There is no difference in acousticness in the Top 10 songs of the Top 200 list
+- Ha: There is a difference in acousticness in the Top 10 songs of the Top 200 list
+
+We fail to reject the Null hypothesis. There is no significant significance
+
+
 # Modeling
 
 In order to predict my goal, I used a Dummy Classifier model as my baseline model to classify a song in which to determine whether it made the Top 10 charts or not. In order to accurately judge my models, I realized that I needed to use the F1 metric. F1 is a metric which is the combination of Precision and Recall. This will tell me if my model is accurately predicting both classes instead of looking at it’s overall accuracy. My baseline model had a 95% accuracy but 0% F1 Score, this indicated to me that my model was struggling with the large class imbalance in my data. Using SMOTE, I created artificial cases to balance my Top 10 to my non-top 10 class. After solving that class imbalance, I ran multiple models including: K-Best Features, Logistic Regression, KNN, Decision Tree, Random Forest, Voting Classifier, and XG Boost. My best model was the Voting Classifier as it had a 38% F1 score and still maintained 88% accuracy.
