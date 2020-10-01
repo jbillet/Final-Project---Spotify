@@ -64,6 +64,8 @@ To visualize what the data describes, I built out multiple visualizations below:
 - Ho: There is no difference in acousticness in the Top 10 songs of the Top 200 list
 - Ha: There is a difference in acousticness in the Top 10 songs of the Top 200 list
 
+![Alt text](https://github.com/jbillet/Final-Project---Spotify/blob/master/Spotify%20ReadMe%20Pictures/Acousticness%20vs%20Time%20on%20Charts.png)
+
 We fail to reject the Null hypothesis. There is no significant significance
 
 
